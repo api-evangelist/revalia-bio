@@ -1,8 +1,27 @@
 aid: revalia-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revalia-bio.png
 name: Revalia Bio
-description: 'Revalia Bio is a company surfaced as a portfolio company of sierra-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Revalia Bio transforms donated, non-transplantable human organs and tissues
+  into high-fidelity biological datasets, using AI to accelerate drug and device development.
+  The company has built "The Human Data Stack" — infrastructure spanning data generation,
+  ingestion, integration, interpretation, and delivery of decision-ready clinical insights
+  for pharma, biotech, healthcare, and regulatory customers. Applications include safety
+  signal detection, dose and target selection, patient selection, and mechanism-of-action
+  studies. Founded by Greg Tietjen (CEO) and Jenna DiRito (COO), it generated first revenue
+  in 2023 and raised seed funding in 2024. Backed by Sierra Ventures. As of this enrichment
+  pass Revalia Bio publishes no public developer portal, API, SDK, or technical surface —
+  it is a B2B research-services company, not a developer platform.'
 url: https://raw.githubusercontent.com/api-evangelist/revalia-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Biotech
+- AI
+- Drug Development
+- Medical Devices
+- Clinical Data
+- Life Sciences
+- Translational Science
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://revaliabio.com/
+- type: PrivacyPolicy
+  url: https://revaliabio.com/privacy-policy
+- type: TermsOfService
+  url: https://revaliabio.com/terms-of-service
+- type: DomainSecurity
+  url: security/revalia-bio-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
